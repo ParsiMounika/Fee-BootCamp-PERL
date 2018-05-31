@@ -1,0 +1,139 @@
+body {
+    font-size: 20px;
+   
+}
+.c1
+{
+    margin:90px;
+}
+.black
+{
+  transition: background-color ease 2s;
+  font-family: 'Lobster', cursive;
+  border-radius: 9%;
+  font-size: 30px;
+  border:5px solid black;
+}
+
+.black:hover{
+  color:black;
+  background-color:white;
+  border:5px solid black;
+}
+
+.black:active{
+  color:white;
+  background-color:#86ba89;
+  font-weight: bold;
+  border:5px solid black;
+}
+
+.container {
+ 
+ 
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 80px 80px 80px 80px;
+  grid-template-rows: 80px 80px;
+  grid-template-areas: 
+  "header header header header" 
+  "main main main main" 
+  "main main main main" 
+  "main main main main" 
+  "main main main main" 
+  "main main main main";
+}
+.item {
+border-top-left-radius: 9%;
+border-top-right-radius: 9%;
+  grid-area: header;
+   grid-row-start: 1; 
+   grid-row-end: 1; 
+   color:white;
+   background-color:white;
+  text-align: right;
+  width:310px;
+  border: 5px solid black;
+  margin-right:15px;
+
+
+}
+.btn {
+  background-color: dimgray;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 4px 2px;
+  height:75px;
+ width: 75px;  
+}
+.silver {
+  background-color: #b29967;
+  color: white;
+  border-radius: 5%;
+  font-weight: bold;
+  transition: background-color ease 2s;
+}
+.silver:hover
+{
+  background-color: white;
+  color:#b29967;
+  border-radius: 5%;
+  border:5px solid #b29967;
+
+}
+.silver:active
+{
+  background-color: #c4564e;
+  color:white;
+  border-radius: 5%;
+  border:5px solid black;
+}
+.orange {
+  background-color: #5ea3e0;
+  border-radius: 5%;
+  transition: background-color ease 2s;
+}
+.c2
+{
+  color:black;
+  font-size: 30px;
+
+}
+.c2:focus
+{
+  background-color: #635d5b;
+  color: white;
+  border: 5px solid #b29967;
+}
+.orange:hover
+{
+  color:#5ea3e0;
+  background-color: white;
+  font-size: 32px;
+  border: 5px solid #5ea3e0;
+  text-align: center;
+  margin:auto;
+}
+.orange:active
+{
+  color:white;
+  background-color: #86ba89;
+  font-size: 32px;
+  border: 5px solid #5ea3e0;
+  text-align: center;
+  margin:auto;
+}
+
+button {
+  font-size: 26px;
+}
+#pwrbtn
+{
+
+height: 40px;
+width: 40px;
+
+
+}
