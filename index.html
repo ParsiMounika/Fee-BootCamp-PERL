@@ -15,45 +15,52 @@
   
  <div class="d">
     <div class="container c1">
-        <input type="textarea" class="item c2">
+
+        <input type="textarea" class="item c2" id="textval" >
+
         <!-- <button class="btn silver">C</button> -->
-        <button class="btn silver">
-           X
+        <button class="btn silver" onclick="removeOneElement()">
+           &larr;
         </button>
         
-        <button class="btn silver">C</button>
-        <button class="btn silver">+/-</button>
-        <button class="btn silver">%</button>
+        <button class="btn silver" id="remove" onclick="emptyField()" >C</button>
+        <button class="btn silver" onclick="addElement('+')" >+/-</button>
+        <button class="btn silver" onclick="addElement('%')" >%</button>
 
        
         
-        <button class="btn black">7</button>
-        <button class="btn black">8</button>
-        <button class="btn black">9</button>
-        <button class="btn orange">/</button>
+        <button class="btn black" onclick="addElement('7')" >7</button>
+        <button class="btn black" onclick="addElement('8')" >8</button>
+        <button class="btn black" onclick="addElement('9')" >9</button>
+        <button class="btn orange" onclick="addElement('/')" >/</button>
         
         
-        <button class="btn black">4</button>
-        <button class="btn black">5</button>
-        <button class="btn black">6</button>
-        <button class="btn orange">*</button>
+        <button class="btn black" onclick="addElement('4')" >4</button>
+        <button class="btn black" onclick="addElement('5')" >5</button>
+        <button class="btn black" onclick="addElement('6')" >6</button>
+        <button class="btn orange" onclick="addElement('*')" >*</button>
         
         
-        <button class="btn black">1</button>
-        <button class="btn black">2</button>
-        <button class="btn black">3</button>
-        <button class="btn orange">-</button>
+        <button class="btn black" onclick="addElement('1')" >1</button>
+        <button class="btn black" onclick="addElement('2')" >2</button>
+        <button class="btn black" onclick="addElement('3')"  >3</button>
+        <button class="btn orange" onclick="addElement('-')" >-</button>
         <!-- <button class="btn orange">+</button> -->
         
         
-        <button class="btn black">0</button>
-        <button class="btn black">.</button>
-        <button class="btn orange">=</button>
-        <button class="btn orange">+</button>
+        <button class="btn black" onclick="addElement('0')" >0</button>
+        <button class="btn black" onclick="addElement('.')" >.</button>
+        <button class="btn orange" id="valuate"  onclick="calculate()" >=</button>
+        <button class="btn orange" onclick="addElement('+')" >+</button>
         
         
       </div>
+<<<<<<< HEAD
     </div>
+=======
+    
+      <script src="calc.js"></script> 
+>>>>>>> 2eeaf3b615a569d0b98e257efde2356a78b80023
      
 </body>
 </html>
