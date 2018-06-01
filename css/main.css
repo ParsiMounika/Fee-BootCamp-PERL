@@ -2,6 +2,7 @@ body {
     font-size: 20px;
    background-image: url('cal.jpg');
    background-position: fixed;
+   overflow: hidden;
 }
 .c1
 {
@@ -135,4 +136,35 @@ border-top-right-radius: 9%;
 
 button {
   font-size: 26px;
+}
+@media only screen /* and (min-width:900px)*/ and  (max-width: 1200px){
+  .c1{
+    margin: 100px 300px 100px 300px ;
+   
+  }
+  
+}
+@media only screen and/* (min-width:768px) and */(max-width: 900px){
+  .c1{
+  
+   position: relative;
+   right:400px;
+}
+}
+@media only screen /* and (min-width:576px)*/ and (max-width: 768px){
+  .c1{
+   
+    position: relative;
+   right:300px;
+   
+  }
+
+  @media only screen /* and (min-width:200px)*/ and (max-width: 576px){
+    .c1{
+      position: relative;
+      right:200px;
+      
+    }
+  
+  }
 }
