@@ -16,6 +16,7 @@ function calculate () {
     //alert(textvaluue);
     var answer = eval(textvaluue);
     document.getElementById("textval").value=answer;
+    setTimeout(()=>{document.getElementById("textval").value=""},2000);
 }
 function emptyField () {
     document.getElementById("textval").value="";
