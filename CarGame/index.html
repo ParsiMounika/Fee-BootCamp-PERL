@@ -5,15 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Car game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/main.css"></link>
 </head>
 <body>
-    <input type="text" name="score" id="s">
-<input type="text" name="Best score" id="b">
+    <br>
+    <input type="text" class="current" name="Current score" id="s">
+<input type="text"  class="best" name="Best score" id="b"><br><br><br>
     <div class="bord">
-        <div class="image" id="icon">
+        <div class="image">
+        <img src="carimage.png" alt="Car">
          </div>
-    </div>
+    </div><br><br>
     
+    <button type="button" class="start">START</button>
+    <button type="button" class="stop">STOP</button>
+    
+
 </body>
 </html>
