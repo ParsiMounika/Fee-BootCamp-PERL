@@ -1,0 +1,89 @@
+body{
+    background-image: url("C:/Users/vksmaddula/Training/TicGame/images/bg.jpg");
+    background-attachment: fixed;
+    background-repeat:inherit;
+    background-size: 100%; 
+}
+.imag{
+    height: 50px;
+    background-color: aquamarine;
+}
+.undo-button {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+    padding:16px 31px;
+    margin-top: 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.undo-button:hover {
+	background-color:#5cbf2a;
+}
+.undo-button:active {
+    position: relative;
+	top:1px;
+}
+.reset-button {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+    font-size:17px;
+    margin-left: 10px;
+    padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.reset-button:hover {
+	background-color:#5cbf2a;
+}
+.reset-button:active {
+    position: relative;
+	top:1px;
+} 
+#items{
+    width: 500px;
+}
+.grid-container {
+    display: grid;
+    grid-gap: 20px 10px;
+    grid-template-columns: auto auto auto;
+    padding: 45px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(82, 156, 190, 0.8);
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+  }
+#contents{
+    height: 20px;
+    margin-top: 30px;
+  
+}
+#turn{
+    font-size: 20px;
+    margin-left: 50px;
+}
+#gm{
+    font-size: 20px;
+    margin-left: 50px;
+}
+input{
+    background: transparent;
+    height: 20px;
+    border-top: transparent !important;
+    border-left: transparent !important;
+    border-right: transparent !important;
+    border-bottom: transparent !important;
+}

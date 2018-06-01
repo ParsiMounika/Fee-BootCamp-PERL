@@ -2,7 +2,7 @@ calculator_array = new Array();
 
 document.getElementById("textval").onkeypress=function () {
     var key = event.which;
-    if(key>=40 && key<58)
+    if( (key>=40 && key<58) || ( key==13) )
     {
         return true;
     }
@@ -29,6 +29,7 @@ function addElement(inputElement) {
 function removeOneElement()
 {
     var valu = document.getElementById("textval").value;
-    document.getElementById("textval").value= valu.substr(0,valu.length-1);
+    document.getElementById("textval").value= valu.substr(0,valu.length-1)
+    ;
     
 }
