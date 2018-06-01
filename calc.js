@@ -2,7 +2,7 @@ calculator_array = new Array();
 
 document.getElementById("textval").onkeypress=function () {
     var key = event.which;
-    if(key>=42 && key<58)
+    if(key>=40 && key<58)
     {
         return true;
     }
@@ -16,7 +16,7 @@ function calculate () {
     //alert(textvaluue);
     var answer = eval(textvaluue);
     document.getElementById("textval").value=answer;
-    setTimeout(()=>{document.getElementById("textval").value=""},2000);
+    //setTimeout(()=>{document.getElementById("textval").value=""},2000);
 }
 function emptyField () {
     document.getElementById("textval").value="";
@@ -28,15 +28,7 @@ function addElement(inputElement) {
 
 function removeOneElement()
 {
-    calculator_array = document.getElementById("textval").value;
-    var modified_array = new Array();
-    var summation = 0;
-    var modified_length = calculator_array.length-1;
-    for(var i = 0 ; i<modified_length;i++)
-    {
-        modified_array[i]= calculator_array[i];
-        summation = parseInt(modified_array[i])+summation*10;
-    }
-    document.getElementById("textval").value = summation;
-
+    var valu = document.getElementById("textval").value;
+    document.getElementById("textval").value= valu.substr(0,valu.length-1);
+    
 }
