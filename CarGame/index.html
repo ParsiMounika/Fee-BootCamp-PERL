@@ -5,15 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Car game</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css"></link>
+    <script src="js/car.js" ></script>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-    <input type="text" name="score" id="s">
-<input type="text" name="Best score" id="b">
+    <br>
+    <input type="text" class="current" name="Current score" id="s">
+<input type="text"  class="best" name="Best score" id="b"><br><br><br>
     <div class="bord">
-        <div class="image" id="icon">
+        <div id="a">
+        <img src="carimage.png" alt="Car">
          </div>
-    </div>
+    </div><br><br>
     
+    <button type="button" class="start" onclick="start();">START</button>
+    <button type="button" class="stop" onclick="stop();">STOP</button>
+    
+
 </body>
 </html>
