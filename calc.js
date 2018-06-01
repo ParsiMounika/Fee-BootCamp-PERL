@@ -9,6 +9,7 @@ document.getElementById("textval").onkeypress=function () {
     }
 }
 function calculate () {
+
     var textvaluue = document.getElementById("textval").value;
     //alert(textvaluue);
     var answer = eval(textvaluue);
@@ -19,5 +20,5 @@ function emptyField () {
 }
 
 function addElement(inputElement) {
-    document.getElementById("textval").value += inputsElement;
+    document.getElementById("textval").value += inputElement;
 }
