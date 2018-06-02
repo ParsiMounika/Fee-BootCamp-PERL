@@ -1,5 +1,5 @@
 body{
-    background-image: url("C:/Users/vksmaddula/Training/TicGame/images/bg.jpg");
+    background-image: url("C:/Users/priyanka/training/Fee-BootCamp-PERL/TicGame/images/bg.jpg");
     background-attachment: fixed;
     background-repeat:inherit;
     background-size: 100%; 
@@ -7,6 +7,7 @@ body{
 .imag{
     height: 50px;
     background-color: aquamarine;
+    margin-top:10px;
 }
 .undo-button {
 	background-color:#44c767;
@@ -30,21 +31,32 @@ body{
 	top:1px;
 }
 .reset-button {
-	background-color:#44c767;
+	background-color:#4c4948;
 	border-radius:28px;
-	border:1px solid #18ab29;
+
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
+
     font-size:17px;
     margin-left: 10px;
     padding:16px 31px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #2f6627;
+    text-shadow:0px 1px 0px #2f6627;
+    font-family: 'Lobster', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Concert One', cursive;
+font-family: 'Kaushan Script', cursive;
 }
 .reset-button:hover {
-	background-color:#5cbf2a;
+    background-color:white;
+    color: #4c4948;
+    font-family: 'Lobster', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Concert One', cursive;
+font-family: 'Kaushan Script', cursive;
 }
 .reset-button:active {
     position: relative;
@@ -59,25 +71,48 @@ body{
     grid-template-columns: auto auto auto;
     padding: 45px;
   }
+  #a1
+  {
+    font-size: 25px;
+  }
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(82, 156, 190, 0.8);
     padding: 50px;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
+    font-family: 'Lobster', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Concert One', cursive;
+transition: all 1s ease ;
+border-radius: 5%;
   }
+  .grid-item:hover
+{
+    background-color: #4c4948;
+    border: 3px solid white;
+    border-radius: 7%;
+}
+
 #contents{
     height: 20px;
     margin-top: 30px;
   
 }
 #turn{
-    font-size: 20px;
+    font-size: 22px;
     margin-left: 50px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 3px;
+   
 }
 #gm{
-    font-size: 20px;
+    font-size: 22px;
     margin-left: 50px;
+    font-family: 'Lobster', cursive;
+    word-spacing: 3px;
+    letter-spacing: 3px;
 }
 input{
     background: transparent;
@@ -86,4 +121,26 @@ input{
     border-left: transparent !important;
     border-right: transparent !important;
     border-bottom: transparent !important;
+}
+#status
+{
+    margin-right:200px;
+    font-family: 'Lobster', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+#person_choice
+{
+    font-family: 'Lobster', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+  
 }
