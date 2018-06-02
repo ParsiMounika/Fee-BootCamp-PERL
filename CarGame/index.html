@@ -8,15 +8,17 @@
     <script src="js/car.js" ></script>
   <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
-<body>
+<body onkeydown='getKeyAndMove(e)'>
     <br>
     <input type="text" class="current" name="Current score" id="s">
 <input type="text"  class="best" name="Best score" id="b"><br><br><br>
     <div class="bord">
         <div id="a">
+            
         <img src="carimage.png" alt="Car">
+        </div>
          </div>
-    </div><br><br>
+    <br><br>
     
     <button type="button" class="start" onclick="start();">START</button>
     <button type="button" class="stop" onclick="stop();">STOP</button>
